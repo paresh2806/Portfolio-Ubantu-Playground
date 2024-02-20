@@ -287,6 +287,7 @@ function Skills() {
             <div className="w-full md:w-10/12 flex mt-4">
                 <div className=" text-sm text-center md:text-base w-1/2 font-bold">Languages & Tools</div>
                 <div className=" text-sm text-center md:text-base w-1/2 font-bold">Frameworks & Libraries</div>
+                <div className=" text-sm text-center md:text-base w-1/2 font-bold">Cloud-AWS</div>
             </div>
             <div className="w-full md:w-10/12 flex justify-center items-start font-bold text-center">
                 <div className="px-2 w-1/2">
@@ -294,18 +295,33 @@ function Skills() {
                         {/*<img className="m-1"*/}
                         {/*     src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A" alt="paresh javascript" />*/}
                         {/*<img className="m-1" src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white" alt="paresh c++" />*/}
-                        <img className="m-1" src="http://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff" alt="paresh python" />
-                        <img className="m-1" src="https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white" alt="paresh R" />
-                        <img className="m-1" src="https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white" alt="paresh Tableau" />
-                        <img className="m-1" src="https://img.shields.io/badge/Jupyter_Lab-%23F37626?style=flat&logo=jupyter&logoColor=white" alt="paresh jupyter" />
+                        <img className="m-1"
+                             src="http://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff"
+                             alt="paresh python"/>
+                        <img className="m-1"
+                             src="https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white"
+                             alt="paresh R"/>
+                        <img className="m-1"
+                             src="https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white"
+                             alt="paresh Tableau"/>
+                        <img className="m-1"
+                             src="https://img.shields.io/badge/Jupyter_Lab-%23F37626?style=flat&logo=jupyter&logoColor=white"
+                             alt="paresh jupyter"/>
                         {/*<img className="m-1" src="https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white" alt="paresh dart" />*/}
                         {/*<a href="https://www.google.com/search?q=is+html+a+language%3F" target="_blank" rel="noreferrer"><img title="yes it's a language!" className="m-1" src="https://img.shields.io/badge/-HTML5-%23E44D27?style=flat&logo=html5&logoColor=ffffff" alt="paresh HTML" /></a>*/}
                         {/*<img src="https://img.shields.io/badge/-Sass-%23CC6699?style=flat&logo=sass&logoColor=ffffff" alt="paresh SASS" className="m-1" />*/}
-                        <img src="https://img.shields.io/badge/-Git-%23F05032?style=flat&logo=git&logoColor=%23ffffff" alt="paresh git" className="m-1" />
-                        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="paresh docker" className="m-1" />
-                        <img src="https://img.shields.io/badge/PyCharm-143?style=flat&logo=pycharm&logoColor=white" alt="paresh pycharm" className="m-1" />
-                        <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white" alt="paresh vscode" className="m-1" />
-                        <img src="https://img.shields.io/badge/Unreal_Engine-%23313131?style=flat&logo=unreal-engine&logoColor=gray&color=lightgrey" alt="paresh UR" className="m-1" />
+                        <img src="https://img.shields.io/badge/-Git-%23F05032?style=flat&logo=git&logoColor=%23ffffff"
+                             alt="paresh git" className="m-1"/>
+                        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"
+                             alt="paresh docker" className="m-1"/>
+                        <img src="https://img.shields.io/badge/PyCharm-143?style=flat&logo=pycharm&logoColor=white"
+                             alt="paresh pycharm" className="m-1"/>
+                        <img
+                            src="https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white"
+                            alt="paresh vscode" className="m-1"/>
+                        <img
+                            src="https://img.shields.io/badge/Unreal_Engine-%23313131?style=flat&logo=unreal-engine&logoColor=gray&color=lightgrey"
+                            alt="paresh UR" className="m-1"/>
                         {/*<img src="https://img.shields.io/badge/-Firebase-FFCA28?style=flat&logo=firebase&logoColor=ffffff" alt="paresh firebase" className="m-1" />*/}
                     </div>
                 </div>
@@ -396,12 +412,49 @@ function Skills() {
                         {/*     alt="paresh redux"/>*/}
                     </div>
                 </div>
+                <div className="px-2 w-1/2">
+                    <div className="flex flex-wrap justify-center items-start w-full mt-2">
+                        <img className="m-1"
+                             src="https://img.shields.io/badge/Amazon_EC2-FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white"
+                             alt="paresh "/>
+                        <img className="m-1"
+                             src="https://img.shields.io/badge/AWS_Lambda-FF9900.svg?style=flat-square&logo=aws-lambda&logoColor=white"
+                             alt="paresh "/>
+                        <img className="m-1"
+                             src="https://img.shields.io/badge/Amazon_S3-569A31.svg?style=flat-square&logo=amazon-s3&logoColor=white"
+                             alt="paresh "/>
+                        <img className="m-1"
+                             src="https://img.shields.io/badge/Amazon_VPC-FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white"
+                             alt="paresh "/>
+                        <img className="m-1"
+                             src="https://img.shields.io/badge/Amazon_Route_53-FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white"
+                             alt="paresh "/>
+                        <img className="m-1"
+                             src="https://img.shields.io/badge/Elastic_Load_Balancing-FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white"
+                             alt="paresh "/>
+                        <img className="m-1"
+                             src="https://img.shields.io/badge/Amazon_SageMaker-FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white"
+                             alt="paresh "/>
+                        <img className="m-1"
+                             src="https://img.shields.io/badge/AWS_IAM-FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white"
+                             alt="paresh "/>
+                        <img className="m-1"
+                             src="https://img.shields.io/badge/Amazon_DynamoDB-4053D6.svg?style=flat-square&logo=amazon-dynamodb&logoColor=white"
+                             alt="paresh "/>
+
+                    </div>
+                </div>
             </div>
             <ul className=" tracking-tight text-sm md:text-base w-10/12 emoji-list mt-4">
-                <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
-                    <span> And of course,</span> <img className=" inline ml-1"
-                                                      src="http://img.shields.io/badge/-Linux-0078D6?style=plastic&logo=linux&logoColor=ffffff"
-                                                      alt="paresh linux"/> <span>!</span>
+                <li className="list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
+                    <span> And of course, because I'm a</span>
+                    <img className="inline ml-1"
+                         src="https://img.shields.io/badge/Linux_Maestro-%2323495E.svg?style=flat&logo=ubuntu&logoColor=white&labelColor=%23E95420&message=sudo%20apt-get%20update%20%26%26%20sudo%20rm%20-rf%20%2F"
+                         alt="paresh linux"/><br/>
+                    <span>You know, just casually updating my system with </span>
+                    <span className="italic">"sudo apt-get"</span><br/>
+                    <span> and gracefully ending it all with</span>
+                    <span className="italic">"sudo rm -rf /*"</span><span>.</span>
                 </li>
             </ul>
         </>
