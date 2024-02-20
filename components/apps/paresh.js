@@ -263,15 +263,25 @@ function Skills() {
                 </div>
             </div>
             <ul className=" tracking-tight text-sm md:text-base w-10/12 emoji-list">
-                <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
-                    I've worked with a wide variety of programming languages & frameworks.
+                <li className="list-arrow text-4xl md:text-base mt-4 leading-tight tracking-tight">
+                    Proficient in <strong style={{color: '#FFA500', fontSize: '2em'}}>Python</strong> 🐍... because
+                    apparently,
+                    knowing how to indent lines is a big deal.
                 </li>
-                <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
-                    <div> My areas of expertise are <strong className="text-ubt-gedit-orange">front-end development,
-                        React.js & javascript!</strong></div>
+
+                <li className="list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
+                    <span role="img" aria-label="dancer">🧙‍♂️</span> Backend choreographer<br/>
+                    <span role="img" aria-label="book">📖</span> Data Science poet<br/>
+                    <span role="img" aria-label="rockstar">🎸</span> Machine Learning rockstar (with a spotlight on
+                    <span role="img" aria-label="eye">👁️</span> Computer Vision and
+                    <span role="img" aria-label="speech_balloon">💬</span> NLP)<br/>
+                    <span role="img" aria-label="cloud">☁️</span> and Cloud trendsetter<br/>
+                    <span style={{fontSize: 'large'}} role="img" aria-label="star">🌟</span>
+                    <span style={{fontSize: 'large', fontStyle: 'italic', fontWeight: 'bold'}}> "because being a tech maven is like hosting your own reality show." </span>
                 </li>
+
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
-                    <div>Here are my most frequently used</div>
+                    <div>Tech Stack</div>
                 </li>
             </ul>
             <div className="w-full md:w-10/12 flex mt-4">
@@ -281,31 +291,117 @@ function Skills() {
             <div className="w-full md:w-10/12 flex justify-center items-start font-bold text-center">
                 <div className="px-2 w-1/2">
                     <div className="flex flex-wrap justify-center items-start w-full mt-2">
-                        <img className="m-1" src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A" alt="paresh javascript" />
-                        <img className="m-1" src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white" alt="paresh c++" />
+                        {/*<img className="m-1"*/}
+                        {/*     src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A" alt="paresh javascript" />*/}
+                        {/*<img className="m-1" src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white" alt="paresh c++" />*/}
                         <img className="m-1" src="http://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff" alt="paresh python" />
-                        <img className="m-1" src="https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white" alt="paresh dart" />
-                        <a href="https://www.google.com/search?q=is+html+a+language%3F" target="_blank" rel="noreferrer"><img title="yes it's a language!" className="m-1" src="https://img.shields.io/badge/-HTML5-%23E44D27?style=flat&logo=html5&logoColor=ffffff" alt="paresh HTML" /></a>
-                        <img src="https://img.shields.io/badge/-Sass-%23CC6699?style=flat&logo=sass&logoColor=ffffff" alt="paresh SASS" className="m-1" />
+                        <img className="m-1" src="https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white" alt="paresh R" />
+                        <img className="m-1" src="https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white" alt="paresh Tableau" />
+                        <img className="m-1" src="https://img.shields.io/badge/Jupyter_Lab-%23F37626?style=flat&logo=jupyter&logoColor=white" alt="paresh jupyter" />
+                        {/*<img className="m-1" src="https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white" alt="paresh dart" />*/}
+                        {/*<a href="https://www.google.com/search?q=is+html+a+language%3F" target="_blank" rel="noreferrer"><img title="yes it's a language!" className="m-1" src="https://img.shields.io/badge/-HTML5-%23E44D27?style=flat&logo=html5&logoColor=ffffff" alt="paresh HTML" /></a>*/}
+                        {/*<img src="https://img.shields.io/badge/-Sass-%23CC6699?style=flat&logo=sass&logoColor=ffffff" alt="paresh SASS" className="m-1" />*/}
                         <img src="https://img.shields.io/badge/-Git-%23F05032?style=flat&logo=git&logoColor=%23ffffff" alt="paresh git" className="m-1" />
-                        <img src="https://img.shields.io/badge/-Firebase-FFCA28?style=flat&logo=firebase&logoColor=ffffff" alt="paresh firebase" className="m-1" />
+                        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="paresh docker" className="m-1" />
+                        <img src="https://img.shields.io/badge/PyCharm-143?style=flat&logo=pycharm&logoColor=white" alt="paresh pycharm" className="m-1" />
+                        <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white" alt="paresh vscode" className="m-1" />
+                        <img src="https://img.shields.io/badge/Unreal_Engine-%23313131?style=flat&logo=unreal-engine&logoColor=gray&color=lightgrey" alt="paresh UR" className="m-1" />
+                        {/*<img src="https://img.shields.io/badge/-Firebase-FFCA28?style=flat&logo=firebase&logoColor=ffffff" alt="paresh firebase" className="m-1" />*/}
                     </div>
                 </div>
                 <div className="px-2 flex flex-wrap items-start w-1/2">
                     <div className="flex flex-wrap justify-center items-start w-full mt-2">
-                        <img className=" m-1" src="https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=ffffff" alt="paresh next" />
-                        <img className=" m-1" src="https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=ffffff" alt="paresh react" />
-                        <img className="m-1" src="https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white" alt="paresh flutter" />
-                        <img className="m-1" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" alt="paresh tailwind css" />
-                        <img src="https://img.shields.io/badge/-Nodejs-339933?style=flat&logo=Node.js&logoColor=ffffff" alt="paresh node.js" className="m-1" />
-                        <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white" alt="paresh jquery" className="m-1" />
-                        <img className="m-1" src="https://img.shields.io/badge/Redux-593D88?style=flat&logo=redux&logoColor=white" alt="paresh redux" />
+                        <img className="m-1"
+                             src="https://img.shields.io/badge/-Flask-000000?style=flat&logo=flask&logoColor=ffffff&color=lightgrey"
+                             alt="paresh flask"/>
+                        <img className="m-1"
+                             src="https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white"
+                             alt="paresh Django"/>
+                        <img className="m-1"
+                             src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white"
+                             alt="paresh Streamlit"/>
+                        <img className="m-1"
+                             src="https://img.shields.io/badge/PyTorch-%23EE4C2C?style=flat&logo=pytorch&logoColor=white"
+                             alt="paresh pytorch"/>
+                        <img className="m-1"
+                             src="https://img.shields.io/badge/TensorFlow-%23FF6F00?style=flat&logo=tensorflow&logoColor=white"
+                             alt="paresh tf"/>
+                        <img className="m-1"
+                             src="https://img.shields.io/badge/%E9%A3%9E%E6%A1%A8-PaddlePaddle-%2300A0E9?style=flat&logo=baidu&logoColor=white"
+                             alt="paresh paddle"/>
+                        <img className="m-1" src="https://img.shields.io/badge/Label%20Studio-1.0.0-blue?style=flat"
+                             alt="Label Studio"/>
+
+                        <img className="m-1"
+                             src="https://img.shields.io/badge/detectron2-v2.0.0-blue?style=flat&logo=appveyor&logoColor=white"
+                             alt="paresh detectron2"/>
+
+                        <img className="m-1"
+                             src="https://img.shields.io/badge/Hugging_Face-Transformers-%23FFD000?style=flat&logo=hugging-face&logoColor=white"
+                             alt="paresh huggingface"/>
+                        <img className="m-1"
+                             src="https://img.shields.io/badge/NGINX-%23009639.svg?style=flat&logo=nginx&logoColor=white"
+                             alt="paresh ngnix"/>
+                        <img className="m-1"
+                             src="https://img.shields.io/badge/OpenCV-%23white.svg?style=flat&logo=opencv&logoColor=white"
+                             alt="paresh cv2"/>
+                        <img className="m-1"
+                             src="https://img.shields.io/badge/FFmpeg-%23EFEFEF.svg?style=flat&logo=ffmpeg&logoColor=white"
+                             alt="paresh ffmpeg"/>
+                        <img className="m-1"
+                             src="https://img.shields.io/badge/YOLOv8-%23EFEFEF.svg?style=flat&logoColor=white"
+                             alt="paresh yolo"/>
+
+                        <img className="m-1"
+                             src="https://img.shields.io/badge/NLTK-%23EFEFEF.svg?style=flat&logo=nltk&logoColor=white"
+                             alt="paresh nltk"/>
+                        <img className="m-1"
+                             src="https://img.shields.io/badge/Scapy-%23EFEFEF.svg?style=flat&logo=appveyor&logoColor=black"
+                             alt="paresh scapy"/>
+                        <img className="m-1"
+                             src="https://img.shields.io/badge/Scikit--learn-F7931E.svg?style=flat&logo=scikit-learn&logoColor=white"
+                             alt="paresh scikit-learn "/>
+                        <img className="m-1"
+                             src="https://img.shields.io/badge/Facebook%20Research-BERT-%237B68EE.svg?style=flat&logo=facebook&logoColor=white"
+                             alt="paresh bert "/>
+                        <img className="m-1"
+                             src="https://img.shields.io/badge/dlib-%23FCC624.svg?style=flat&logo=dlib&logoColor=black"
+                             alt="paresh dlib "/>
+                        <img className="m-1"
+                             src="https://img.shields.io/badge/FaceNet-%23FFD700.svg?style=flat&logo=star&logoColor=white"
+                             alt="paresh facenet "/>
+                        <img className="m-1"
+                             src="https://img.shields.io/badge/MMPose-%234CAF50.svg?style=flat&logo=compass&logoColor=white"
+                             alt="paresh mmpose "/>
+
+
+                        {/*<img className=" m-1"*/}
+                        {/*     src="https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=ffffff"*/}
+                        {/*     alt="paresh next"/>*/}
+                        {/*<img className=" m-1"*/}
+                        {/*     src="https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=ffffff"*/}
+                        {/*     alt="paresh react"/>*/}
+                        {/*<img className="m-1"*/}
+                        {/*     src="https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white"*/}
+                        {/*     alt="paresh flutter"/>*/}
+                        {/*<img className="m-1"*/}
+                        {/*     src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white"*/}
+                        {/*     alt="paresh tailwind css"/>*/}
+                        {/*<img src="https://img.shields.io/badge/-Nodejs-339933?style=flat&logo=Node.js&logoColor=ffffff"*/}
+                        {/*     alt="paresh node.js" className="m-1"/>*/}
+                        {/*<img src="https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white"*/}
+                        {/*     alt="paresh jquery" className="m-1"/>*/}
+                        {/*<img className="m-1"*/}
+                        {/*     src="https://img.shields.io/badge/Redux-593D88?style=flat&logo=redux&logoColor=white"*/}
+                        {/*     alt="paresh redux"/>*/}
                     </div>
                 </div>
             </div>
             <ul className=" tracking-tight text-sm md:text-base w-10/12 emoji-list mt-4">
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
-                    <span> And of course,</span> <img className=" inline ml-1" src="http://img.shields.io/badge/-Linux-0078D6?style=plastic&logo=linux&logoColor=ffffff" alt="paresh linux" /> <span>!</span>
+                    <span> And of course,</span> <img className=" inline ml-1"
+                                                      src="http://img.shields.io/badge/-Linux-0078D6?style=plastic&logo=linux&logoColor=ffffff"
+                                                      alt="paresh linux"/> <span>!</span>
                 </li>
             </ul>
         </>
