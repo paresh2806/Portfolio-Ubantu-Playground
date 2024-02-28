@@ -503,51 +503,28 @@ function CertificationDivision({ title, certifications, onCertClick }) {
 
 
 function Certifications() {
-    // const Specialization = [
-    //     { src: '/images/ctrs/DataAnalytics.png', label: 'Data Analytics' },
-    //     { src: '/images/ctrs/Cybersecurity.png', label: 'Cybersecurity' },
-    //
-    // ];
-    //
-    // const CloudXNvida = [
-    //     { src: '/images/ctrs/AwsTechnicalAssentials.png', label: 'AWS Technical Assentials' },
-    //     { src: '/images/ctrs/HandsonMachineLearningwithAWSandNVIDIA.png', label: 'ML with AWS & Nvidia' },
-    //     { src: '/images/ctrs/AIinDataCenter.png', label: 'AI in Data Center' },
-    //
-    // ];
-    //
-    // const Others = [
-    //     { src: '/images/ctrs/Python.png', label: 'Python Crash Course ' },
-    //     { src: '/images/ctrs/IOT.png', label: 'Iot & Embedded' },
-    //     { src: '/images/ctrs/DataAnalysiswithMATLAB.png', label: 'Data Analysis with MATLAB' },
-    //     { src: '/images/ctrs/DataProcessingandFeatureEngineering.png', label: 'Data Processing and Feature Engineering' },
-    //     { src: '/images/ctrs/SimulinkOnramp.png', label: 'Simulink Onramp' },
-    //     { src: '/images/ctrs/SignalProcessingOnramp.png', label: 'Signal Processing' },
-    //     { src: '/images/ctrs/Matlab.png', label: 'Matlab Onramp' },
-    //
-    // ];
-
     const Specialization = [
-        { src: '/public/images/ctrs/DataAnalytics.png', label: 'Data Analytics' },
-        { src: '/public/images/ctrs/Cybersecurity.png', label: 'Cybersecurity' },
+        // { src: '/images/ctrs/DataAnalytics.png', label: 'Data Analytics' },
+        { src: 'https://github.com/paresh2806/Portfolio-Ubantu-Playground/blob/master/public/images/ctrs/DataAnalytics.png?raw=true', label: 'Data Analytics' },
+        { src: 'https://github.com/paresh2806/Portfolio-Ubantu-Playground/blob/master/public/images/ctrs/Cybersecurity.png?raw=true', label: 'Cybersecurity' },
 
     ];
 
     const CloudXNvida = [
-        { src: '/images/ctrs/AwsTechnicalAssentials.png', label: 'AWS Technical Assentials' },
-        { src: '/images/ctrs/HandsonMachineLearningwithAWSandNVIDIA.png', label: 'ML with AWS & Nvidia' },
-        { src: '/images/ctrs/AIinDataCenter.png', label: 'AI in Data Center' },
+        { src: 'https://github.com/paresh2806/Portfolio-Ubantu-Playground/blob/master/public/images/ctrs/AwsTechnicalAssentials.png?raw=true', label: 'AWS Technical Assentials' },
+        { src: 'https://github.com/paresh2806/Portfolio-Ubantu-Playground/blob/master/public/images/ctrs/HandsonMachineLearningwithAWSandNVIDIA.png?raw=true', label: 'ML with AWS & Nvidia' },
+        { src: 'https://github.com/paresh2806/Portfolio-Ubantu-Playground/blob/master/public/images/ctrs/AIinDataCenter.png?raw=true', label: 'AI in Data Center' },
 
     ];
 
     const Others = [
-        { src: '/images/ctrs/Python.png', label: 'Python Crash Course ' },
-        { src: '/images/ctrs/IOT.png', label: 'Iot & Embedded' },
-        { src: '/images/ctrs/DataAnalysiswithMATLAB.png', label: 'Data Analysis with MATLAB' },
-        { src: '/images/ctrs/DataProcessingandFeatureEngineering.png', label: 'Data Processing and Feature Engineering' },
-        { src: '/images/ctrs/SimulinkOnramp.png', label: 'Simulink Onramp' },
-        { src: '/images/ctrs/SignalProcessingOnramp.png', label: 'Signal Processing' },
-        { src: '/images/ctrs/Matlab.png', label: 'Matlab Onramp' },
+        { src: 'https://github.com/paresh2806/Portfolio-Ubantu-Playground/blob/master/public/images/ctrs/Python.png?raw=true', label: 'Python Crash Course ' },
+        { src: 'https://github.com/paresh2806/Portfolio-Ubantu-Playground/blob/master/public/images/ctrs/IOT.png?raw=true', label: 'Iot & Embedded' },
+        { src: 'https://github.com/paresh2806/Portfolio-Ubantu-Playground/blob/master/public/images/ctrs/DataAnalysiswithMATLAB.png?raw=true', label: 'Data Analysis with MATLAB' },
+        { src: 'https://github.com/paresh2806/Portfolio-Ubantu-Playground/blob/master/public/images/ctrs/DataProcessingandFeatureEngineering.png?raw=true', label: 'Data Processing and Feature Engineering' },
+        { src: 'https://github.com/paresh2806/Portfolio-Ubantu-Playground/blob/master/public/images/ctrs/SimulinkOnramp.png?raw=true', label: 'Simulink Onramp' },
+        { src: 'https://github.com/paresh2806/Portfolio-Ubantu-Playground/blob/master/public/images/ctrs/SignalProcessingOnramp.png?raw=true', label: 'Signal Processing' },
+        { src: 'https://github.com/paresh2806/Portfolio-Ubantu-Playground/blob/master/public/images/ctrs/matlab.png?raw=true', label: 'Matlab Onramp' },
 
     ];
 
