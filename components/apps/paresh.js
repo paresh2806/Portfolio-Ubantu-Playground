@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import ReactGA from 'react-ga4';
+import Image from 'next/image';
+import { useState } from 'react';
 
 export class AboutParesh extends Component {
 
@@ -19,6 +21,7 @@ export class AboutParesh extends Component {
             "experience":<Experience/>,
             "education": <Education />,
             "skills": <Skills />,
+            "certifications": <Certifications />,
             "projects": <Projects />,
             "resume": <Resume />,
         }
@@ -74,6 +77,11 @@ export class AboutParesh extends Component {
                      className={(this.state.active_screen === "skills" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
                     <img className=" w-3 md:w-4" alt="paresh' skills" src="./themes/Yaru/status/skills.svg"/>
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Skills</span>
+                </div>
+                <div id="certifications" tabIndex="0" onFocus={this.changeScreen}
+                     className={(this.state.active_screen === "certifications" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
+                    <img className=" w-3 md:w-4" alt="paresh' Certifications" src="./themes/Yaru/status/certificate.svg"/>
+                    <span className=" ml-1 md:ml-2 text-gray-50 ">Certifications</span>
                 </div>
                 <div id="projects" tabIndex="0" onFocus={this.changeScreen}
                      className={(this.state.active_screen === "projects" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
@@ -460,6 +468,104 @@ function Skills() {
         </>
     )
 }
+
+
+
+
+
+
+
+function CertificationDivision({ title, certifications, onCertClick }) {
+    return (
+        <div className="mt-5 pb-8">
+            <h2 className="text-xl font-bold -mb-7 pl-10 text-left">{title}</h2> {/* Decreased top margin */}
+            <div className="flex flex-wrap justify-center gap-4 p-4 -mb-5">
+                {certifications.map((certification, index) => (
+                    <div key={index} className="w-48 h-48 md:w-64 md:h-64 bg-transparent rounded-lg overflow-hidden shadow-md cursor-pointer relative flex flex-col items-center mb-4">
+                        <div className="flex-grow" onClick={() => onCertClick(certification.src)}>
+                            <Image
+                                src={certification.src || '/images/default-certification.png'}
+                                alt={`Certification ${index + 1}`}
+                                layout="fill"
+                                objectFit="contain"
+                            />
+                        </div>
+                        <div className="p-2 text-center -mb-2"> {/* Removed negative margin-bottom */}
+                            {certification.label}
+                        </div>
+                    </div>
+                ))}
+            </div>
+            <hr className="mt-2 -mb-4" /> {/* Adjusted top and bottom margin */}
+        </div>
+    );
+}
+
+
+function Certifications() {
+    const Specialization = [
+        { src: '/images/ctrs/DataAnalytics.png', label: 'Data Analytics' },
+        { src: '/images/ctrs/Cybersecurity.png', label: 'Cybersecurity' },
+
+    ];
+
+    const CloudXNvida = [
+        { src: '/images/ctrs/AwsTechnicalAssentials.png', label: 'AWS Technical Assentials' },
+        { src: '/images/ctrs/HandsonMachineLearningwithAWSandNVIDIA.png', label: 'ML with AWS & Nvidia' },
+        { src: '/images/ctrs/AIinDataCenter.png', label: 'AI in Data Center' },
+
+    ];
+
+    const Others = [
+        { src: '/images/ctrs/Python.png', label: 'Python Crash Course ' },
+        { src: '/images/ctrs/IOT.png', label: 'Iot & Embedded' },
+        { src: '/images/ctrs/DataAnalysiswithMATLAB.png', label: 'Data Analysis with MATLAB' },
+        { src: '/images/ctrs/DataProcessingandFeatureEngineering.png', label: 'Data Processing and Feature Engineering' },
+        { src: '/images/ctrs/SimulinkOnramp.png', label: 'Simulink Onramp' },
+        { src: '/images/ctrs/SignalProcessingOnramp.png', label: 'Signal Processing' },
+        { src: '/images/ctrs/Matlab.png', label: 'Matlab Onramp' },
+
+    ];
+
+    const [expandedSrc, setExpandedSrc] = useState(null);
+
+    const handleExpand = (src) => {
+        setExpandedSrc(src);
+    };
+
+    const handleClose = () => {
+        setExpandedSrc(null);
+    };
+
+    return (
+        <>
+            <div className="text-left">
+                <CertificationDivision title="Specialization 💎" certifications={Specialization} onCertClick={handleExpand} />
+                <CertificationDivision title="Cloud X Nvidia 🚀🚀" certifications={CloudXNvida} onCertClick={handleExpand} />
+                <CertificationDivision title="Others" certifications={Others} onCertClick={handleExpand} />
+            </div>
+
+            {expandedSrc && (
+                <div className="fixed top-0 left-0 w-full h-full z-50 flex justify-center items-center bg-black bg-opacity-50" onClick={handleClose}>
+                    <div className="bg-transparent p-4 rounded-lg">
+                        <Image
+                            src={expandedSrc}
+                            alt="Expanded Certification"
+                            width={800} // Set to your desired width
+                            height={600} // Set to your desired height
+                            layout="intrinsic" // You can change this to responsive or fill as needed
+                            objectFit="contain"
+                        />
+                    </div>
+                </div>
+            )}
+        </>
+    );
+}
+
+
+
+
 
 function Projects() {
     const project_list = [
