@@ -503,9 +503,33 @@ function CertificationDivision({ title, certifications, onCertClick }) {
 
 
 function Certifications() {
+    // const Specialization = [
+    //     { src: '/images/ctrs/DataAnalytics.png', label: 'Data Analytics' },
+    //     { src: '/images/ctrs/Cybersecurity.png', label: 'Cybersecurity' },
+    //
+    // ];
+    //
+    // const CloudXNvida = [
+    //     { src: '/images/ctrs/AwsTechnicalAssentials.png', label: 'AWS Technical Assentials' },
+    //     { src: '/images/ctrs/HandsonMachineLearningwithAWSandNVIDIA.png', label: 'ML with AWS & Nvidia' },
+    //     { src: '/images/ctrs/AIinDataCenter.png', label: 'AI in Data Center' },
+    //
+    // ];
+    //
+    // const Others = [
+    //     { src: '/images/ctrs/Python.png', label: 'Python Crash Course ' },
+    //     { src: '/images/ctrs/IOT.png', label: 'Iot & Embedded' },
+    //     { src: '/images/ctrs/DataAnalysiswithMATLAB.png', label: 'Data Analysis with MATLAB' },
+    //     { src: '/images/ctrs/DataProcessingandFeatureEngineering.png', label: 'Data Processing and Feature Engineering' },
+    //     { src: '/images/ctrs/SimulinkOnramp.png', label: 'Simulink Onramp' },
+    //     { src: '/images/ctrs/SignalProcessingOnramp.png', label: 'Signal Processing' },
+    //     { src: '/images/ctrs/Matlab.png', label: 'Matlab Onramp' },
+    //
+    // ];
+
     const Specialization = [
-        { src: '/images/ctrs/DataAnalytics.png', label: 'Data Analytics' },
-        { src: '/images/ctrs/Cybersecurity.png', label: 'Cybersecurity' },
+        { src: '/public/images/ctrs/DataAnalytics.png', label: 'Data Analytics' },
+        { src: '/public/images/ctrs/Cybersecurity.png', label: 'Cybersecurity' },
 
     ];
 
