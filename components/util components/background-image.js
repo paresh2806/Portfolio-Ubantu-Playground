@@ -12,6 +12,7 @@ export default function BackgroundImage(props) {
         "wall-8": "./images/wallpapers/wall-8.webp",
         "wall-9": "./images/wallpapers/wall-9.jpeg",
         "wall-10": "./images/wallpapers/wall-10.jpeg",
+        "wall-11": "./images/wallpapers/wall-11.png",
     };
     return (
         <div style={{ backgroundImage: `url(${bg_images[props.img]})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPositionX: "center" }} className="bg-ubuntu-img absolute -z-10 top-0 right-0 overflow-hidden h-full w-full">
