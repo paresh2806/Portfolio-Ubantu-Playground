@@ -13,6 +13,7 @@ export function Settings(props) {
         "wall-8": "./images/wallpapers/wall-8.webp",
         "wall-9": "./images/wallpapers/wall-9.jpeg",
         "wall-10": "./images/wallpapers/wall-10.jpeg",
+        "wall-11": "./images/wallpapers/wall-11.png",
     };
 
     let changeBackgroundImage = (e) => {
